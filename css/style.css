@@ -498,6 +498,96 @@ footer .small_bar {
   height: 4px;
   background-color: #1fbad6;
 }
+footer .footer_wrapper {
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer_wrapper .footer_block {
+  width: 33%;
+  padding-top: 33px;
+}
+footer .footer_wrapper .footer_block:nth-child(1) {
+  padding-left: 20px;
+}
+footer .footer_wrapper .footer_block:nth-child(3) {
+  text-align: right;
+  padding-right: 20px;
+}
+footer .footer_wrapper .footer_block .social_wrapper {
+  display: flex;
+}
+footer .footer_wrapper .footer_block .social_wrapper .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #070716;
+  color: #fff;
+  font-size: 18px;
+}
+footer .footer_wrapper .footer_block .social_wrapper .social:first-child {
+  margin-left: 0;
+}
+footer .footer_wrapper .footer_block .link_row_top {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+footer .footer_wrapper .footer_block .link_row_top a {
+  margin: 0 23px 0 23px;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #070716;
+}
+footer .footer_wrapper .footer_block .link_row_bottom {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+footer .footer_wrapper .footer_block .link_row_bottom a {
+  margin: 0 10px 0 10px;
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #999999;
+}
+footer .footer_wrapper .footer_block .link_row_language {
+  margin-top: 19px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+footer .footer_wrapper .footer_block .link_row_language a {
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1fbad6;
+}
+footer .footer_wrapper .store_link {
+  text-decoration: none;
+}
+footer .footer_wrapper .store_link img {
+  width: 94px;
+  height: 26px;
+}
 footer .hor_bar {
   height: 8px;
   background-color: #070716;
