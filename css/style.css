@@ -423,8 +423,69 @@ nav {
 }
 
 .worldwide {
+  position: relative;
   height: 717px;
+  padding: 49px 0;
   background: #080816 url("../images/map_bg.png") center center no-repeat;
+}
+.worldwide_cities {
+  margin: 0 auto;
+  width: 76px;
+  height: 24px;
+  background-color: #fff;
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+}
+.worldwide_header {
+  margin: 32px auto 0 auto;
+  font-size: 38px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.worldwide_subheader {
+  margin: 10px auto 0 auto;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+.worldwide_link {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  margin: auto;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+.worldwide_link a {
+  color: #1fbad6;
+}
+.worldwide_link a:hover {
+  color: #1fbad6;
 }
 
 footer {
