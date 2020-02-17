@@ -9,7 +9,7 @@ html {
 
 nav {
   height: 67px;
-  padding-top: 25px;
+  padding-top: 20px;
   background-color: #212121;
 }
 
@@ -21,7 +21,19 @@ nav {
 }
 
 .top_menu_item {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+}
+.top_menu_item:after {
+  content: "";
+  display: block;
+  margin-left: 50px;
+  height: 20px;
+  width: 1px;
+  background: black;
+}
+.top_menu_item:last-child:after {
+  display: none;
 }
 
 .top_menu_link {

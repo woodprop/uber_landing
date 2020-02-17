@@ -7,7 +7,7 @@ html
 
 nav
   height: 67px
-  padding-top: 25px
+  padding-top: 20px
   background-color: #212121
 
 .top_menu
@@ -17,7 +17,18 @@ nav
   margin-bottom: 0
 
 .top_menu_item
-  display: inline-block
+  display: flex
+  align-items: center
+  &:after
+    content: ''
+    display: block
+    margin-left: 50px
+    height: 20px
+    width: 1px
+    background: black
+  &:last-child
+    &:after
+      display: none
 
 .top_menu_link
   font-size: 15px
