@@ -419,7 +419,68 @@ nav {
 }
 
 .requirements {
+  padding: 68px 0 84px 0;
   min-height: 920px;
+}
+.requirements_header {
+  margin-top: 32px;
+  font-size: 38px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222;
+}
+.requirements_row {
+  margin-top: 30px;
+}
+.requirements_row:last-child {
+  margin-top: 60px;
+}
+.requirements_row:last-child .requirements_block_header {
+  color: #ff5656;
+}
+.requirements_row:last-child ul li:before {
+  background: url("../icons/check_red.png");
+}
+.requirements_block_header {
+  font-size: 22px;
+  font-weight: normal;
+  color: #1ca8c3;
+}
+.requirements_block ul {
+  position: relative;
+  list-style: none;
+}
+.requirements_block ul li {
+  margin: 10px 0 0 50px;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.41;
+  letter-spacing: normal;
+  color: #222;
+}
+.requirements_block ul li:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 19px;
+  margin-top: 3px;
+  width: 21px;
+  height: 20px;
+  background: url("../icons/check_blue.png");
+}
+.requirements_block span {
+  display: block;
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: normal;
+  color: #1ca8c3;
 }
 
 .worldwide {
