@@ -322,7 +322,6 @@ nav {
   background: url("../images/mob_6.jpg") center center no-repeat;
 }
 .mobile_item:hover .mobile_item_cover {
-  transition: all 0.5s ease;
   opacity: 1;
 }
 .mobile_item_cover {
@@ -341,6 +340,7 @@ nav {
   text-align: center;
   color: #ffffff;
   text-transform: uppercase;
+  transition: all 0.5s ease;
 }
 .mobile_item_cover .plus_circle {
   position: absolute;
@@ -664,6 +664,28 @@ footer .footer_wrapper .store_link img {
 footer .hor_bar {
   height: 8px;
   background-color: #070716;
+}
+
+@media (max-width: 1200px) {
+  .subheader_phone_number {
+    font-size: 18px;
+  }
+
+  .reasons_item_text {
+    width: 300px;
+  }
+
+  .mobile_item {
+    width: 300px;
+  }
+
+  .link_row_top .link_top {
+    font-size: 10px !important;
+  }
+
+  .link_row_bottom a {
+    font-size: 8px !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
