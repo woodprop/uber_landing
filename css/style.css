@@ -403,6 +403,25 @@ nav {
   border-radius: 50% 50% 0 0/100% 100% 0 0;
   overflow: hidden;
 }
+.half_circle_text {
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.half_circle_text div {
+  color: #fff;
+  font-size: 46px;
+  line-height: 1;
+}
+.half_circle_text div:last-child {
+  position: relative;
+  margin-top: 10px;
+  color: #000;
+  font-size: 16px;
+  text-transform: uppercase;
+}
 
 .car {
   position: relative;
@@ -685,6 +704,23 @@ footer .hor_bar {
 
   .link_row_bottom a {
     font-size: 8px !important;
+  }
+}
+@media (max-width: 991px) {
+  .promo {
+    min-height: 700px;
+  }
+  .promo_title {
+    font-size: 46px;
+  }
+  .promo_subtitle {
+    font-size: 30px;
+  }
+  .promo_text {
+    padding: 20px;
+  }
+  .promo .request_btn {
+    margin-top: 50px;
   }
 }
 
