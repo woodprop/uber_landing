@@ -707,8 +707,19 @@ footer .hor_bar {
   }
 }
 @media (max-width: 991px) {
+  nav {
+    padding-top: 22px;
+  }
+  nav .top_menu_item:after {
+    margin-left: 19px;
+  }
+  nav .top_menu_link {
+    font-size: 12px !important;
+  }
+
   .promo {
-    min-height: 700px;
+    min-height: 600px;
+    padding-bottom: 70px;
   }
   .promo_title {
     font-size: 46px;
@@ -721,6 +732,34 @@ footer .hor_bar {
   }
   .promo .request_btn {
     margin-top: 50px;
+  }
+
+  .reasons_item {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .reasons_item_title {
+    margin-top: 30px;
+  }
+  .reasons_item_text {
+    height: auto;
+  }
+
+  .mobile_item {
+    width: 210px;
+  }
+  .mobile_item_cover {
+    font-size: 18px;
+  }
+
+  .footer_block:nth-child(2) {
+    width: auto !important;
+  }
+  .footer_block:nth-child(odd) {
+    width: 180px !important;
+  }
+  .footer_block .store_link {
+    display: block;
   }
 }
 

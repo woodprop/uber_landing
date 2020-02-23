@@ -13,8 +13,20 @@
       font-size: 8px !important
 
 @media (max-width: 991px)
+  nav
+    padding-top: 22px
+    .top_menu
+      &_item
+        &:after
+          margin-left: 19px
+
+      &_link
+        font-size: 12px !important
+
+
   .promo
-    min-height: 700px
+    min-height: 600px
+    padding-bottom: 70px
     &_title
       font-size: 46px
     &_subtitle
@@ -23,3 +35,27 @@
       padding: 20px
     .request_btn
       margin-top: 50px
+
+
+  .reasons_item
+    flex-direction: column
+    justify-content: flex-start
+    &_title
+      margin-top: 30px
+    &_text
+      height: auto
+
+  .mobile_item
+    width: 210px
+    &_cover
+      font-size: 18px
+
+
+  .footer_block
+    &:nth-child(2)
+      width: auto !important
+    &:nth-child(odd)
+      width: 180px !important
+
+    .store_link
+      display: block
