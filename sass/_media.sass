@@ -59,3 +59,45 @@
 
     .store_link
       display: block
+
+
+@media (max-width: 767px)
+  .subheader
+    height: 74px
+    .logo_container
+      top: 0
+    .logo_title
+      font-size: 20px
+    .logo_text
+      display: none
+
+  .reasons_item
+    margin-top: 30px
+    &:first-child
+      margin-top: 0
+
+  .mobile_container
+    .row
+      margin: 0
+
+  .mobile_item
+    width: 320px
+    margin: 20px auto
+
+  .choice, .car
+    display: none
+
+
+  footer
+    height: auto
+
+    .footer_wrapper
+      height: 90px
+
+    .footer_block
+      &:nth-child(odd)
+        width: auto !important
+      &:nth-child(2)
+        display: none
+      .store_link
+        display: inline-block

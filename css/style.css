@@ -762,5 +762,55 @@ footer .hor_bar {
     display: block;
   }
 }
+@media (max-width: 767px) {
+  .subheader {
+    height: 74px;
+  }
+  .subheader .logo_container {
+    top: 0;
+  }
+  .subheader .logo_title {
+    font-size: 20px;
+  }
+  .subheader .logo_text {
+    display: none;
+  }
+
+  .reasons_item {
+    margin-top: 30px;
+  }
+  .reasons_item:first-child {
+    margin-top: 0;
+  }
+
+  .mobile_container .row {
+    margin: 0;
+  }
+
+  .mobile_item {
+    width: 320px;
+    margin: 20px auto;
+  }
+
+  .choice, .car {
+    display: none;
+  }
+
+  footer {
+    height: auto;
+  }
+  footer .footer_wrapper {
+    height: 90px;
+  }
+  footer .footer_block:nth-child(odd) {
+    width: auto !important;
+  }
+  footer .footer_block:nth-child(2) {
+    display: none;
+  }
+  footer .footer_block .store_link {
+    display: inline-block;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
