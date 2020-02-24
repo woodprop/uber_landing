@@ -433,7 +433,6 @@ nav {
   padding-top: 217px;
   background: url("../images/mobile_bg.jpg") top left repeat;
 }
-
 .car_img {
   position: absolute;
   left: 0;
@@ -441,7 +440,6 @@ nav {
   top: -134px;
   margin: auto;
 }
-
 .car_text {
   font-size: 17px;
   font-weight: 300;
@@ -690,6 +688,10 @@ footer .hor_bar {
 }
 
 @media (max-width: 1200px) {
+  nav .top_menu_item:after {
+    margin-left: 33px;
+  }
+
   .subheader_phone_number {
     font-size: 18px;
   }
