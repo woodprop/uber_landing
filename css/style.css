@@ -876,5 +876,70 @@ footer .hor_bar {
     display: inline-block;
   }
 }
+@media (max-width: 575px) {
+  nav .top_menu {
+    width: 75%;
+  }
+
+  .subheader {
+    height: 50px;
+    padding-top: 14px;
+  }
+  .subheader .logo_container {
+    top: -5px;
+  }
+  .subheader .logo_title {
+    display: none;
+  }
+  .subheader_phone_text {
+    display: none;
+  }
+
+  .mobile_item {
+    width: auto;
+  }
+
+  .worldwide {
+    display: none;
+  }
+
+  .promo {
+    min-height: 520px;
+    padding-top: 100px;
+  }
+  .promo_title {
+    font-size: 30px;
+  }
+  .promo_subtitle {
+    margin-top: 5px;
+    font-size: 18px;
+  }
+  .promo_text {
+    display: none;
+  }
+  .promo .request_btn {
+    margin-top: 140px;
+  }
+
+  .mobile_app_header {
+    font-size: 28px;
+  }
+
+  footer .footer_wrapper {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  footer .footer_block {
+    width: 100%;
+    padding: 5px 10px !important;
+  }
+  footer .small_bar {
+    margin-bottom: 10px;
+  }
+  footer .hor_bar {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
